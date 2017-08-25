@@ -31,25 +31,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-body { 
-	text-align: center;
-	margin-top: 0px;
-}
-
-.game {
-	margin: auto;
-	width:960px;
-	height:540px;
-}
-.botao {
-	cursor: hand;
-	cursor: pointer;
-}
-</style>
 <!-- Bootstrap core CSS -->
 <link href="css/cead-game.css" rel="stylesheet" />
 <link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
 <script>
 var game_id = 'ph-com-phmetro';
 </script>
@@ -59,22 +44,46 @@ var game_id = 'ph-com-phmetro';
 
 <div class="game game-canvas">
 	<main style="height:411px"></main>
-	<div class="canvas-footer" style="height:129px;background-color:#eee;overflow-y:scroll;overflow-x:hidden;display:none">
-		<div class="row">
+	<div class="canvas-footer">
+		<div class="row footer-splash">
 			<div class="col-xs-12">
 				<a onclick="clickConfiguracoes()"><img class="botao" src="img/opcoes.png" /></a>
 		    	<a onclick="clickEntrar()"><img class="botao" src="img/entrar.png" /></a>
 				<a onclick="clickCreditos()"><img class="botao" src="img/credito.png" /></a>
 			</div>
 		</div>
+		<div class="footer-jogo">
+         <img src="img/footer.png" class="img-responsive" />	
+		<label for="label_phmentro" class="resultado">---- </label>
+		</div>
+		<div class="footer-check">
+	<fieldset>
+ 		 <label class="check" for="check1">
+   		 <input type="checkbox" checked="checked" id="check1">
+   		 Check 1
+          </label>
+          <label class="check" for="check2">
+           <input type="checkbox" id="check2">
+          Check 2
+         </label>
+        <label class="check" for="check3">
+        <input type="checkbox" id="check3">
+        Check 3
+        </label>
+    </fieldset>
+
+		</div>
 	</div>
 </div>
-<div class="game game-credits"  style="display:none;background:url('img/credito_txt.png')">
-<a onclick="clickVoltar()"><img class="botao" style="position: relative; right:280px; left: -320px; top: 450px;" src="img/voltar.png" /></a>
+<div class="game game-credits")">
+<img src="img/credito_txt.png"  />	
+<a onclick="clickVoltar()"><img class="botao_voltar" src="img/voltar.png" /></a>
 </div> 
 </div>
 <!-- tela-professor -->
 <div class="game game-config" style="background:#eee;display:none">
+	<a onclick="clickVoltar()"><img class="botao_voltar" src="img/voltar.png" /></a>
+	<a onclick="clickCancelar()"><img class="botao_cancelar" src="img/cancelar.png" /></a>
 	<div class="container">
 	  <div class="row">
 	    <h1 class="apresentacao">Aula prática: Medição de pH com pHmetro</h1>
@@ -217,8 +226,13 @@ var game;
 $('.game-canvas').hide();
 
 function clickEntrar() {
-	esconder('splash');bringToFront('bancada');
-	$('.canvas-footer').find('*').remove();
+	esconder('splash');
+	bringToFront('bancada')
+
+	// Limpa o footer
+	$('.footer-splash').hide();
+	$('.footer-jogo').show();
+	$('.footer-check').show();
 }
 
 function clickConfiguracoes() {
@@ -227,12 +241,18 @@ function clickConfiguracoes() {
 }
 function clickVoltar() {
 	$('.game-credits').hide();
+	 $('.game-config').hide();
 	$('.game-canvas').fadeIn(500);
+}
+function clickCancelar() {
+$("input[type=checkbox], input[type=radio]").prop("checked", false)
+$("input[type=number]").prop("value",0)
 }
 function clickCreditos() {
 	$('.game-canvas').hide();
 	$('.game-credits').fadeIn(500);
 }
+
 
 function init() {
 	$('.canvas-footer')
