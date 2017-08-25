@@ -1,0 +1,312 @@
+{  
+  "sprites":[
+    {
+      "conceito": "tela-principal",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "cx": 0,
+        "cy": 0,
+        "rotate": 0,
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 104,
+        "y": 288,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 267,
+        "y": 288,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 430,
+        "y": 288,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 593,
+        "y": 288,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 104,
+        "y": 376,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 267,
+        "y": 376,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 430,
+        "y": 376,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "lugar-bancada",
+      "transform": {
+        "x": 593,
+        "y": 376,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 40,
+        "height": 20
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "phmetro",
+      "transform": {
+        "x": 750,
+        "y": 360,
+        "cx": 0.3,
+        "cy": 0.8,
+        "rotate": 0,
+        "width": 231,
+        "height": 213
+      },
+      "data": {
+        "texto": "olas"
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "splash",
+      "acao": "esconder('splash');bringToFront('bancada')",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "cx": 0,
+        "cy": 0,
+        "rotate": 0,
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "conceito": "prateleira",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "cx": 0,
+        "cy": 0,
+        "rotate": 0,
+        "width": 960,
+        "height": 540
+      },
+      "pai": "tela-principal"
+    },
+    {
+      "conceito": "click",
+      "acao": "bringToFront('bancada')",
+      "transform": {
+        "x": 480,
+        "y": 100,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 32,
+        "height": 32
+      },
+      "pai": "prateleira"
+    },
+    {
+      "conceito": "armario",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "cx": 0,
+        "cy": 0,
+        "rotate": 0,
+        "width": 960,
+        "height": 540
+      },
+      "pai": "tela-principal"
+    },
+    {
+      "conceito": "click",
+      "acao": "bringToFront('armario')",
+      "transform": {
+        "x": 480,
+        "y": 480,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 32,
+        "height": 32
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "click",
+      "acao": "bringToFront('bancada')",
+      "transform": {
+        "x": 480,
+        "y": 50,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 32,
+        "height": 32
+      },
+      "pai": "armario"
+    },
+    {
+      "conceito": "bequer",
+      "acao": "colocarNaBancada(this)",
+      "transform": {
+        "x": 120,
+        "y": 80,
+        "cx": 0.5,
+        "cy": 0.9,
+        "rotate": 0,
+        "width": 63,
+        "height": 75
+      },
+      "pai": "armario"
+    },
+    {
+      "conceito": "frasco",
+      "acao": "colocarNaBancada(this)",
+      "transform": {
+        "x": 200,
+        "y": 90,
+        "cx": 0.5,
+        "cy": 1,
+        "rotate": 0,
+        "width": 40,
+        "height": 83
+      },
+      "pai": "armario"
+    },
+    {
+      "conceito": "frasco",
+      "acao": "colocarNaBancada(this)",
+      "transform": {
+        "x": 250,
+        "y": 90,
+        "cx": 0.5,
+        "cy": 1,
+        "rotate": 0,
+        "width": 40,
+        "height": 83
+      },
+      "pai": "armario"
+    },
+    {
+      "conceito": "click",
+      "acao": "bringToFront('prateleira')",
+      "transform": {
+        "x": 480,
+        "y": 50,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 32,
+        "height": 32
+      },
+      "pai": "bancada"
+    },
+    {
+      "conceito": "bancada",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "cx": 0,
+        "cy": 0,
+        "rotate": 0,
+        "width": 960,
+        "height": 540
+      },
+      "pai": "tela-principal"
+    },
+    {
+      "conceito": "placa-de-agitacao",
+      "transform": {
+        "x": 125,
+        "y": 20,
+        "cx": 0.5,
+        "cy": 0.5,
+        "rotate": 0,
+        "width": 75,
+        "height": 59
+      },
+      "pai": "phmetro"
+    },
+    {
+      "conceito": "bequer-repouso",
+      "transform": {
+        "x": 125,
+        "y": 0,
+        "cx": 0.55,
+        "cy": 0.9,
+        "rotate": 0,
+        "width": 63,
+        "height": 75
+      },
+      "pai": "phmetro"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+body { 
+	text-align: center;
+	margin-top: 0px;
+}
+
+.game {
+	margin: auto;
+	width:960px;
+	height:540px;
+}
+.botao {
+	cursor: hand;
+	cursor: pointer;
+}
+
+.canvas-footer { 
+	height:129px;
+	background-color:#eee;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	display:none;
+}
+
+.footer-jogo { 
+	display:none;
+	overflow-y:scroll;
+	background:url('../img/footer.png');
+}
+.footer-check { 
+	display:none;
+	overflow-y:scroll;
+	position: relative; 
+}
+
+.resultado {
+	font-size: 50px;
+	font-family: arial;
+	position: absolute; 
+	right:280px; 
+	left: -320px;
+	top: 420px;
+	font-family: 'ds-digitalnormal';
+}
+.game-credits{
+	display:none;
+	background:url('../img/credito_txt.png');
+}
+.botao_voltar{
+	position:  relative; 
+	right:280px; 
+	left: -320px; 
+	top: 450px;" 
+}
+.botao_cancelar{
+	position: relative; 
+	right:280px; 
+	left: -120px;
+	 top: 450px;"
+}
+
+@font-face {
+    font-family: 'ds-digitalnormal';
+    src: url('../fonts/ds-digi-webfont.woff2') format('woff2'),
+         url('../fonts/ds-digi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

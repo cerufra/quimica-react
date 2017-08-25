@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Testando</title>
+	<script src="cargaefetiva.js"></script>
+	<script src="dados.js"></script>
+	<script src="IsMissing.js"></script>
+	<script src="mc.js"></script>
+	<script src="pHsol2.js"></script>
+	<script src="rotinaDeMistura.js"></script>
+	<script src="rotinaMedicaophSimples.js"></script>
+	<script src="wat.js"></script>
+</head>
+<body>
+<script>
+	// Chamada de teste da função para mistura de amônia e ácido acético
+	var teste = new rotinaDeMistura();
+	teste.defineSistemas(["Acetato"], ["Amônia"], 10, 10, [0.1], [0.1]);
+	console.log("Começou aqui");
+	console.log(teste.ph());
+	console.log(teste.volume());
+	console.log(teste.componentes());
+	console.log(teste.concentracoes());
+	console.log(teste.numSistemas());
+	teste.calculapH();
+	console.log("Calculou aqui");
+	console.log(teste.ph());
+	console.log(teste.volume());
+	console.log(teste.componentes());
+	console.log(teste.concentracoes());
+	console.log(teste.numSistemas());
+</script>
+
+</body>
+</html>

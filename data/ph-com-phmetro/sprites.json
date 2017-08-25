@@ -1,0 +1,600 @@
+[
+  {
+    "conceito": "tela-principal",
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "cx": 0,
+      "cy": 0,
+      "rotate": 0
+    }
+  },
+  {
+    "conceito": "lugar-bancada",
+    "transform": {
+      "x": 104,
+      "y": 215,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-bancada",
+    "transform": {
+      "x": 267,
+      "y": 215,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-bancada",
+    "transform": {
+      "x": 430,
+      "y": 215,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-pisseta",
+    "transform": {
+      "x": 593,
+      "y": 215,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "pisseta",
+    "transform": {
+      "x": 588,
+      "y": 180,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-bancada",
+    "transform": {
+      "x": 104,
+      "y": 303,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-bancada",
+    "transform": {
+      "x": 267,
+      "y": 303,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-bancada",
+    "transform": {
+      "x": 430,
+      "y": 303,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "lugar-descarte",
+    "transform": {
+      "x": 593,
+      "y": 303,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "bequer-descarte",
+    "transform": {
+      "x": 590,
+      "y": 275,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "phmetro",
+    "transform": {
+      "x": 750,
+      "y": 303,
+      "cx": 0.3,
+      "cy": 0.8,
+      "rotate": 0
+    },
+    "data": {
+      "texto": "olas",
+      "calibrado" : false,
+      "limpo" : false,
+      "seco" : true,
+      "sd" : 0.05
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "splash",
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "cx": 0,
+      "cy": 0,
+      "rotate": 0
+    }
+  },
+  {
+    "conceito": "prateleira",
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "cx": 0,
+      "cy": 0,
+      "rotate": 0
+    },
+    "pai": "tela-principal"
+  },
+
+  {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 110,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+
+{
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 210,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+  {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 310,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 410,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 510,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 610,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 710,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 810,
+      "y": 197,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+  {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 110,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+{
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 210,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+  {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 310,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 410,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 510,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 610,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 710,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+   {
+    "conceito": "lugar-prateleira",
+    "transform": {
+      "x": 810,
+      "y": 350,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+  {
+    "conceito": "click",
+    "acao": "bringToFront('bancada')",
+    "transform": {
+      "x": 490,
+      "y": 400,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+  {
+    "conceito": "armario",
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "cx": 0,
+      "cy": 0,
+      "rotate": 0
+    },
+    "pai": "tela-principal"
+  },
+  {
+    "conceito": "click",
+    "acao": "bringToFront('armario')",
+    "transform": {
+      "x": 480,
+      "y": 394,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "click",
+    "acao": "bringToFront('bancada')",
+    "transform": {
+      "x": 487,
+      "y": 15,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "armario"
+  },
+  {
+    "conceito": "bequer",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 110,
+      "y": 200,
+      "cx": 0.5,
+      "cy": 0.9,
+      "rotate": 0
+    },
+    "pai": "prateleira"
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 210,
+      "y": 200,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Ácido Acético"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+    {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 310,
+      "y": 200,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Amônia"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 410,
+      "y": 200,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Ácido Forte"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 610,
+      "y": 200,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Base Forte"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 810,
+      "y": 200,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Acetato"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 810,
+      "y": 353,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Fenol"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 710,
+      "y": 353,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Cafeina"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 610,
+      "y": 353,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Anilina"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "frasco",
+    "acao": "acaoVidraria(this)",
+    "transform": {
+      "x": 510,
+      "y": 353,
+      "cx": 0.5,
+      "cy": 1,
+      "rotate": 0
+    },
+    "pai": "prateleira",
+    "data": {
+      "nome": ["Cálcio 2+"],
+      "concentracoes": [0.1],
+      "volume": 10
+    }
+  },
+  {
+    "conceito": "click",
+    "acao": "bringToFront('prateleira')",
+    "transform": {
+      "x": 480,
+      "y": 50,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "bancada"
+  },
+  {
+    "conceito": "bancada",
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "cx": 0,
+      "cy": 0,
+      "rotate": 0
+    },
+    "pai": "tela-principal"
+  },
+  {
+    "conceito": "placa-de-agitacao",
+    "transform": {
+      "x": 125,
+      "y": 20,
+      "cx": 0.5,
+      "cy": 0.5,
+      "rotate": 0
+    },
+    "pai": "phmetro"
+  },
+  {
+    "conceito": "bequer-repouso",
+    "transform": {
+      "x": 125,
+      "y": 0,
+      "cx": 0.55,
+      "cy": 0.9,
+      "rotate": 0
+    },
+    "pai": "phmetro"
+  }
+]

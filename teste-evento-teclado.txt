@@ -1,0 +1,21 @@
+<input type="text" class="text-input" style="width:960px" />
+<script>
+//setInterval(function () { $('.text-input').focus(); },1000/60);
+
+// Teclado
+$('.text-input').keydown(function (e) {
+	switch (e.key) {
+		case 'ArrowDown':
+			// Lista opcoes disponiveis
+			$('.text-output').val( CeadAPI.executar( 'opcoes' ) );
+		break;
+		case 'Enter':
+			// Executa a acao atual
+			$('.text-output').val( CeadAPI.executar( $(this).val() ) );
+			// 
+			$(this).val('');
+		break;
+	}
+});
+</script>
+<textarea class="text-output" style="width:960px;height:60px"></textarea>
